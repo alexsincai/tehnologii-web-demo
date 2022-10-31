@@ -43,3 +43,28 @@ img {
 p {
     margin-block-end: 0.5rem;
 }
+
+header {
+    padding: 1rem 0;
+    font-size: 1.2rem;
+}
+
+aside li {
+    margin-block-end: 0.5rem;
+}
+
+article.hero {
+    padding-block-end: 1rem;
+}
+
+article + article {
+    padding-block-end: 1rem;
+    margin-block-end: 2rem;
+    border-block-end: 1px dashed;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.8rem;
+    margin-block-end: 1rem;
+}
